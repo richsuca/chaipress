@@ -1,0 +1,17 @@
+                    </div><!-- #content -->
+                </div><!-- #primary -->
+ 
+            </div><!--.wrap-->
+        </div><!--#main-->
+ 
+        <div id="footer" class="site-footer">
+            <div class="wrap">
+ 
+                <p class="site-credits">Copyright owner</p>
+ 
+            </div><!--.wrap-->
+        </div><!--#footer-->
+ 
+    </div><!--#page-->
+</body>
+</html>
