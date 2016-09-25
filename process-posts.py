@@ -38,8 +38,8 @@ title_re = re.compile('(?<=title:[\s*]).*')
 name_re = re.compile('(?<=name:[\s*]).*')
 date_re = re.compile('(?<=date:[\s*]).*')
 
-root_dir = 'U:/Users/richard/website'
-base_url = 'http://richardhsu.net'
+root_dir = '.'
+base_url = 'https://richardhsu.net'
 
 # get posts
 post_dir = Path(root_dir + '/posts')
