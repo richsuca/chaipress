@@ -5,7 +5,7 @@ import shutil
 from datetime import datetime
 from string import Template
 from titlecase import titlecase
-
+import markdown
 
 class Post:
     def __init__(self, title, name, date, text):
@@ -41,6 +41,8 @@ date_re = re.compile('(?<=date:[\s*]).*')
 root_dir = '.'
 base_url = 'https://richardhsu.net'
 
+md = markdown.Markdown()
+
 # get posts
 post_dir = Path(root_dir + '/posts')
 for post_file in post_dir.iterdir():
@@ -59,6 +61,11 @@ for post_file in post_dir.iterdir():
 
         text_idx = file_text.find("text:")
         text = file_text[text_idx + len("text:") + 1:]
+        
+        if post_file.name[-3:] == '.md':
+            text = md.convert(text)
+            md.reset()
+
         posts.append(Post(title, name, date, text))
 
 # archive previous output
