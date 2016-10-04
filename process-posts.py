@@ -134,11 +134,11 @@ day_string = ""
 # by date descending, this helps with getting a recent post list
 posts.sort(reverse=True)
 
-os.mkdir(root_dir + '/output/archive')
+os.mkdir(root_dir + '/output/archives')
 os.mkdir(root_dir + '/output/feed')
 
 # write header to TOC page
-with open(root_dir + '/output/archive/index.html', encoding='utf-8',
+with open(root_dir + '/output/archives/index.html', encoding='utf-8',
           mode='w') as pt:
     pt.write(top_template)
 
@@ -277,7 +277,7 @@ for p in posts:
 
     p_date_string_short = p.date.strftime('%Y.%m')
     # add to TOC page
-    with open(root_dir + '/output/archive/index.html',
+    with open(root_dir + '/output/archives/index.html',
               encoding='utf-8', mode='a') as pt:
         pt.write(Template(title_only_template).substitute(
                  permalink=permalink_rel,
@@ -295,7 +295,7 @@ with open(root_dir + '/output/index.html', encoding='utf-8', mode='a') as pt:
     pt.write(bottom_template)
 
 # add footer to TOC page
-with open(root_dir + '/output/archive/index.html',
+with open(root_dir + '/output/archives/index.html',
           encoding='utf-8', mode='a') as pt:
     pt.write(bottom_template)
 

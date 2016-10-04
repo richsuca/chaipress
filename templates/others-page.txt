@@ -1,2 +1,2 @@
 <h1>Others</h1>
-<p><a href="http://flickr.com/photos/richardhsu">View in a rectangle</a> – Photos I made.</p>
+<p>List other things like link to photo gallery, projects etc.</p>
