@@ -5,11 +5,11 @@
 <atom:link href="https://example.com/feed/rss.xml" rel="self" type="application/rss+xml" />
 <link>https://example.com/</link>
 <description>{Website description</description>
-<lastBuildDate>Tue, 04 Oct 2016 09:04:09 -0400</lastBuildDate>
+<lastBuildDate>Tue, 04 Oct 2016 09:15:59 -0400</lastBuildDate>
 <language>en</language><item>
   <title>Chaipress</title>
-  <link>https://richardhsu.net/2016/09/29/chaipress</link>
-  <guid>https://richardhsu.net/2016/09/29/chaipress</guid>
+  <link>https://richardhsu.net/2016/09/29/chaipress/</link>
+  <guid>https://richardhsu.net/2016/09/29/chaipress/</guid>
   <pubDate>Thu, 29 Sep 2016 19:00:00 -0400</pubDate>
   <description><![CDATA[<p>On a September 1st afternoon, I found an article about <a href="https://lists.linuxfoundation.org/pipermail/ksummit-discuss/2016-August/003580.html">Linux kernel GPL enforcement</a> on <a href="http://lwn.net/Articles/698452/">Hacker News</a>. It referenced Torvald's <a href="https://news.ycombinator.com">reply</a> on the thread. I read it and enjoyed the argument made and the style it was made in. It also got me curious about plain text formatting (<code>*bold*</code>, <code>_underscore_</code>,  <code>[foot notes]</code>, <code>&gt; for quoting</code>). I suddenly had a desire to write like that and wondered if there was a blogging service that supported that. My website <em>was</em> on WordPress and it could work using <code>&lt;pre&gt;</code> Html tag but plain text wasn't <em>the</em> only way to write.</p>
 <p>So I Googled for "plain text blog" and found <a href="http://calepin.co/">http://calepin.co/</a> and it was nice but not exactly what I was looking for. I noticed the words "Powered by Pelican" in the footer. That got me looking up <a href="http://docs.getpelican.com/">Pelican</a> and I learnt it was a "static site generator written in Python". Interesting<sup>1</sup>. On the same Google results page, there was a blog post about <a href="https://www.notionsandnotes.org/tech/web-development/pelican-static-blog-setup.html">building a static blog with Pelican</a>. The post describes blogging options and makes an argument for static site generators. It also provides step-by-step instructions to get Pelican working but the most useful paragraph for me was</p>
@@ -30,8 +30,8 @@ Footnotes:</p>
 </ol>]]></description>
 </item><item>
   <title>World Cup of Hockey: NA vs. Russia</title>
-  <link>https://richardhsu.net/2016/09/21/wch-na-vs-russia</link>
-  <guid>https://richardhsu.net/2016/09/21/wch-na-vs-russia</guid>
+  <link>https://richardhsu.net/2016/09/21/wch-na-vs-russia/</link>
+  <guid>https://richardhsu.net/2016/09/21/wch-na-vs-russia/</guid>
   <pubDate>Wed, 21 Sep 2016 19:00:00 -0400</pubDate>
   <description><![CDATA[<p>The <a href="http://ice.wch2016.com/recap?id=2016060106">match</a> between North America(NA) and Russia in the World Cup of Hockey was fast, exciting, dramatic, and had an edge-of-the-seat heart pounding finish that makes hockey entertaining to watch. There was also the young guns of <em>The West</em> (US &amp; Canada) versus the men of Russia angle. The end result was disappointing for me but Russia deserved to win it.</p>
 <p>Some commentary</p>
@@ -67,8 +67,8 @@ Footnotes:</p>
 ]]></description>
 </item><item>
   <title>Home Made Static Site Generator</title>
-  <link>https://richardhsu.net/2016/09/19/home-made-static-site-generator</link>
-  <guid>https://richardhsu.net/2016/09/19/home-made-static-site-generator</guid>
+  <link>https://richardhsu.net/2016/09/19/home-made-static-site-generator/</link>
+  <guid>https://richardhsu.net/2016/09/19/home-made-static-site-generator/</guid>
   <pubDate>Mon, 19 Sep 2016 01:37:00 -0400</pubDate>
   <description><![CDATA[First new post on the home made static site generator. Feature complete with RSS and a few nice things like auto Title casing. No more ads.]]></description>
 </item></channel>

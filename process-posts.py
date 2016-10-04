@@ -207,7 +207,7 @@ for p in posts:
                 nyp.write(bottom_template)
 
     permalink_rel = "/" + p_year_string + "/" + p_month_string + "/" \
-                    + p_day_string + "/" + p.name
+                    + p_day_string + "/" + p.name + "/"
     p_date_string = p.date.strftime('%b %d, %Y')
 
     # write to year archive
