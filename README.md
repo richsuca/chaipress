@@ -59,6 +59,8 @@ If you are migrating from WordPress, you can use wp-extract.py to import the pos
 
 4. I wanted to write my own blogging engine for a long time. Before Chaipress, I tried to write typical _dynamic_ web apps using C#+ASP.NET, Python+Google App Engine but didn't finish them. I bit off more than I could chew and the convenience of WordPress and other read-to-use applications was hard to resist.
 
+5. It is called Chaipress because Chai(tea) is simple, easy-to-make, low cost, and refreshing. The _press_ is a suffix borrowed from the names of other blogging systems (WordPress, Octopress)
+
 ## Credits & Tools
 Below are inspirations and tools that helped me in the design and implementation of Chaipress.
 
