@@ -50,6 +50,9 @@ If you are migrating from WordPress, you can use wp-extract.py to import the pos
 ## Quality Control
 1. [W3C validated Html & RSS](https://validator.w3.org/unicorn/)
 
+## Support
+I would prefer if you email me at admin@richardhsu.net but you can tweet me @richardhsu on Twitter too.
+
 ## Why
 1. The free version of WordPress has ads and I don't like them. $50/year to remove ads is more than I want to pay.
 
