@@ -38,6 +38,9 @@ If you are migrating from WordPress, you can use wp-extract.py to import the pos
 
 2. FTP or use GitHub to upload /output/ into the web server.
 
+## Backward compatibility
+The URL scheme of /YYYY/MM/DD/post-name/ is backward compatable with my Wordpress blog. If I was starting from scratch and didn't have to worry about breaking links, I would have gone with /YYYY/MM/post-name.html to make it simpler and require lesser files and directories.
+
 ## Make it your own
 1. Edit `process-posts.py` and replace your url in line 42
 2. Replace favicon.ico and favicon.gif with your own images.
@@ -49,6 +52,8 @@ If you are migrating from WordPress, you can use wp-extract.py to import the pos
    
 ## Quality Control
 1. [W3C validated Html & RSS](https://validator.w3.org/unicorn/)
+2. Future proof: 1000 posts with 5000 characters each generates in 3 seconds on my MacBook Air (Mid 2013 edition).
+3. I am using to generate my webiste at https://richardhsu.net and I have very high standards.
 
 ## Support
 I would prefer if you email me at admin@richardhsu.net but you can tweet me [@richardhsu](https://twitter.com/richardhsu) on Twitter too.
